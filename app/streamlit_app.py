@@ -282,10 +282,6 @@ st.set_page_config(page_title="Chest X-ray Findings (Local)", layout="centered")
 st.title("Chest X-ray Findings (Local)")
 st.caption("Research/demo tool — not a medical device.")
 
-# Debug markers (remove later if you want)
-st.write("Artifact:", ARTIFACT_PATH)
-st.write("ResNet weights:", RESNET_W_PATH)
-
 tab_upload, tab_valid = st.tabs(["Upload any image", "CheXpert valid (Ground Truth)"])
 
 # =========================
