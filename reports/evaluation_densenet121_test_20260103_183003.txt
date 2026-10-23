@@ -1,0 +1,21 @@
+Split: test
+Device: mps
+Arch: densenet121
+Model path: /Users/shreyamishra/Projects/medical_imaging_ai/models/densenet121_proper_split_final.pth
+Images: 624
+Classes: ['NORMAL', 'PNEUMONIA']
+
+--- Confusion Matrix ---
+[[153  81]
+ [  2 388]]
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+      NORMAL     0.9871    0.6538    0.7866       234
+   PNEUMONIA     0.8273    0.9949    0.9034       390
+
+    accuracy                         0.8670       624
+   macro avg     0.9072    0.8244    0.8450       624
+weighted avg     0.8872    0.8670    0.8596       624
+

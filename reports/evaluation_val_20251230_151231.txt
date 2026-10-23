@@ -1,0 +1,19 @@
+Split: val
+Device: mps
+Images: 782
+Classes: ['NORMAL', 'PNEUMONIA']
+
+--- Confusion Matrix ---
+[[199   2]
+ [  0 581]]
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+      NORMAL     1.0000    0.9900    0.9950       201
+   PNEUMONIA     0.9966    1.0000    0.9983       581
+
+    accuracy                         0.9974       782
+   macro avg     0.9983    0.9950    0.9966       782
+weighted avg     0.9975    0.9974    0.9974       782
+

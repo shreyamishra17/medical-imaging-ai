@@ -1,0 +1,21 @@
+Split: test
+Device: mps
+Arch: densenet121
+Model path: /Users/shreyamishra/Projects/medical_imaging_ai/models/densenet121_chest_xray_frozen.pth
+Images: 624
+Classes: ['NORMAL', 'PNEUMONIA']
+
+--- Confusion Matrix ---
+[[152  82]
+ [ 16 374]]
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+      NORMAL     0.9048    0.6496    0.7562       234
+   PNEUMONIA     0.8202    0.9590    0.8842       390
+
+    accuracy                         0.8429       624
+   macro avg     0.8625    0.8043    0.8202       624
+weighted avg     0.8519    0.8429    0.8362       624
+

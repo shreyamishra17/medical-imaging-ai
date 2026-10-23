@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Datasets — never commit (CheXpert / Kermany have redistribution-restricted licenses)
+datasets/
+data/raw/
+*.dcm
+
+# Model weights & artifacts (large, regenerable)
+models/
+*.pth
+*.pt
+*.joblib
+*.onnx
+
+# Training run outputs
+runs/
+
+# Credentials
+kaggle/
+kaggle.json
+.env
